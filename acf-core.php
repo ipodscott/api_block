@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: ACF Core
+Plugin Name: ACF Core API Block
 Plugin URI: https://scottsaunders.design
 Description: Add ACF Core Gutenberg Blocks.
 Version: 1.0
@@ -31,7 +31,7 @@ function my_plugin_block_categories( $categories, $post ) {
 
   $acf_core = array(
     "slug" => "acf-core-blocks",
-    "title" => __("ACF Core Blocks", "acf-core-blocks"),
+    "title" => __("Client Name Blocks", "acf-core-blocks"),
     "icon" => "layout",
   );
 
